@@ -7,7 +7,8 @@ starts out as the default white background color.  Clicking the Submit button ch
 random background color. Finally!
 
 
-P.S., I'm so happy with this silly little thing that I just spent the last 10 minutes changing my background color over and over and over .... :)
+P.S., I'm so happy with this silly little thing that I just spent the last 10 minutes changing my background color over and over and over .... :) I'm 58 going on 2, so my 
+2-year-old granddaughter will love this!
 
 Prior issues: the background color is also changed randomly when the page is loaded. As of 3/9/2021, it still has this issue.
 
