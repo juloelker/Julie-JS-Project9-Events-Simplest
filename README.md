@@ -6,6 +6,9 @@ As of 3/12, after researching how to call and nest functions, I finally got this
 starts out as the default white background color.  Clicking the Submit button changes the page to a new, 
 random background color. Finally!
 
+
+P.S., I'm so happy with this silly little thing that I just spent the last 10 minutes changing my background color over and over and over .... :)
+
 Prior issues: the background color is also changed randomly when the page is loaded. As of 3/9/2021, it still has this issue.
 
 
