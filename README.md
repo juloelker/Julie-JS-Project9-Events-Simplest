@@ -1,6 +1,12 @@
 # Julie-JS-Project9-Events-Simplest
 
-This function is to change the background color of the entire body when the user clicks the submit button on the form.  My only issue is, the background color is also changed randomly when the page is loaded. As of 3/9/2021, it still has this issue.
+This function is to change the background color of the entire body when the user clicks the submit button on the form.  
+
+As of 3/12, after researching how to call and nest functions, I finally got this to work.  The entire page
+starts out as the default white background color.  Clicking the Submit button changes the page to a new, 
+random background color. Finally!
+
+Prior issues: the background color is also changed randomly when the page is loaded. As of 3/9/2021, it still has this issue.
 
 
 Taking the rough, messy comments out of my code and putting them here:
