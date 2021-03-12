@@ -1,25 +1,16 @@
-//event example from MDN, adapted
-//to work when I click the submit button
-//on the Text Form, one issue not fixed,
-//see the readme.md
+//When I click the submit button,
+// I get the entire page to change
+//to a random background color.
 
-const form = document.querySelector("#text-form");
-// Load all event listeners
-loadEventListeners();
+const btn = document.querySelector("#txt-btn");
 
-// Define the event listeners
-function loadEventListeners() {
-  // bgcolor to change background color on body
-  form.addEventListener("submit", bgColor());
-}
+btn.addEventListener("click", bgColor);
 
-// const btn = document.querySelector("#txt-btn");
-function bgColor() {
-  const rndCol =
-    "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
-  document.body.style.backgroundColor = rndCol;
-}
+function bgColor(e) {
+  let randomNum = function () {
+    return Math.floor(Math.random() * (255 + 1));
+  };
 
-function random(number) {
-  return Math.floor(Math.random() * (number + 1));
+  document.body.style.backgroundColor = `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`;
+  e.preventDefault();
 }
